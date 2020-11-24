@@ -4,9 +4,9 @@
 
 #Autor: Gustavo Abtibol de Oliveira
 
-# Grupo:    Gustavo Abtibol de Oliveira
-#           A
-#           A
+# Grupo:    Fábio Henrique Martins de Oliveira
+#           Gustavo Abtibol de Oliveira
+#           Levi Lima
 
 
 # Nota: Em caso de caracteres errados durante o input de chaves e cifras
@@ -33,8 +33,8 @@ def obter_chave():
 def gerador_chave():
     if os.path.exists('chave.key'):
         os.remove('chave.key')
-        criar_chave()
-        obter_chave()
+    criar_chave()
+    obter_chave()
 
 
 def comandos():
